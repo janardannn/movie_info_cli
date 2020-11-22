@@ -1,7 +1,7 @@
 MOVIE INFO CLI
 
-Get movies info's such as IMDb, RottenTomatoes, Metacritic, MyAnimeList(in case of anime) and Description directly from
-command line.
+Get movies info's such as IMDb, RottenTomatoes, Metacritic, MyAnimeList(in case of anime) etc. 
+and Description directly from command line.
 
 INSTALL Requirements: pip install -r requirements.txt
 
