@@ -1,6 +1,6 @@
 MOVIE INFO CLI
 
-Get movies info's such as IMDb, RottenTomatoes, Metacritic and Description directly from
+Get movies info's such as IMDb, RottenTomatoes, Metacritic, MyAnimeList(in case of anime) and Description directly from
 command line.
 
 HOW TO USE:
