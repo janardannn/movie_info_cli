@@ -16,12 +16,12 @@ def get_imdb(query):
         return None
     try:
         title = s.find('div',class_="BNeawe deIvCb AP7Wnd").get_text()
+        print(title,end=" (")
         date = s.find("span",class_="BNeawe tAd8D AP7Wnd").get_text()
         date = date.split(" ")
-        date = date[2]
-        print(title,end=" (")
+        date = date[2]   
         print(date + ")")
-    except (TypeError,AttributeError):
+    except (TypeError,AttributeError,IndexError):
         pass
     IMDb = IMDb.split('\n')
     IMDb[-1] = "Description: " + IMDb[-1]
