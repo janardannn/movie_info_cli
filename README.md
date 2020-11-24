@@ -1,9 +1,9 @@
-## MOVIE INFO CLI
+# MOVIE INFO CLI
 
 Get movies info's such as IMDb, RottenTomatoes, Metacritic, MyAnimeList(in case of anime) etc. 
 and Description directly from command line.
 
-# INSTALLATION
+## INSTALLATION
 ```bash
 pip install -r requirements.txt
 ```
