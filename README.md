@@ -9,7 +9,8 @@ pip install -r requirements.txt
 ```
 ## HOW TO USE:
 type in command line:
-```pythonpython main.py -m "Movie Name"
+```python
+python main.py -m "Movie Name"
 ```
 
 *currently only one argument is available.
